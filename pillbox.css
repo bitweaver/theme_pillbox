@@ -1,0 +1,49 @@
+@import url(../../../themes/css/import.css);
+/*@import url( ../blueprint/src/grid.css );*/
+@import url( ../blueprint/blueprint.css );
+@import url( pillbox_dropmenu.css );
+body			{ background:#ebebeb; font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:11pt; }
+
+/* layout */
+
+#container		{ width:960px; margin-left:auto; margin-right:auto; }
+#bittop			{ padding: .5em 1em .5em 2em; font-size:85%; }
+#bitbottom		{ padding: 2em; text-align:center; }
+#navigation,
+#extra,
+#content		{ background:white; -webkit-border-radius: 2em; -moz-border-radius: 2em; border: 1px solid #aaaaaa; margin:-1px; -webkit-box-shadow: rgba(0, 0, 0, 0.398438) 0px 1px 3px; }
+#content		{ padding: 1em 1em 2em 2em; margin:1em 1em 0 0;}
+#navigation,
+#extra			{ margin-top:1em; }
+.module			{padding:.5em 0 .5em 1em; }
+	
+/* headings */
+h1,h2,h3,h4,h5,h6,p,dl  {margin-top:4px; margin-bottom:2px;text-align:left;}
+h1 {font:900 2.2em "trebuchet ms", serif;}
+h2 {font:700 1.8em "trebuchet ms", serif;}
+h3 {font:700 1.4em "trebuchet ms", serif;}
+h4 {font:700 1.3em "trebuchet ms", serif;}
+h5 {font:700 1.2em "trebuchet ms", serif;}
+h6 {font:700 1.1em "trebuchet ms", serif;}
+
+/* anchors and coloring */
+a				{ color: #244389; text-decoration: none; border-bottom: 1px dotted #244389; }
+a img,			
+.floaticon a,
+#header a,
+#bitbottom a	{ border: none; }
+
+/* interface components */
+.box			{ background:#eee; border-radius:5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+
+
+.tabsystem .tabcontainer .tab { -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topright: 5px; }
+.tabsystem .tabcontainer .tab a	{ border:none; }
+
+.menu ul			{ padding: 0; margin:0; }
+.menu ul li			{ list-style:none; margin: 3px 0 0 0; }
+.menu ul a			{ border:none; }
+.menu.box img.menuicon	{ float:right;opacity:0.4;filter:alpha(opacity=40) }
+
+/* content formating */
+#content img { padding:3px; }
